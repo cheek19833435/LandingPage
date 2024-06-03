@@ -38,6 +38,7 @@ body {
     flex-basis: 350px;
     /* to stack div on top of each other */
     flex-direction: column;
+    /* provides space between items in flex box */
     justify-content: space-evenly;
 }
 
@@ -87,4 +88,5 @@ button.sign{
     background: #3882F6;
     border: 1px solid #3882F6;
     color: white;
+    border-radius: 8px;
 }
