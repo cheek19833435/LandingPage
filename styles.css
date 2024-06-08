@@ -12,7 +12,8 @@ body {
     justify-content: space-evenly;
 }
 
-.logo {
+.logo,
+.signupbox {
     display: flex;
     font-size: 24px;
     color: #F9FAF8;
@@ -29,6 +30,7 @@ body {
     display: flex;
     background-color: #1f2937;
     justify-content: space-evenly;
+   
     
 }
 
@@ -45,8 +47,11 @@ body {
 .right {
     display: flex;
     padding-top: 80px;
-    padding-bottom: 16px;
+    padding-bottom: 50px;
+    /* pushes image underneath header links 1,2,3 */
+    padding-right: 90px;
 }
+
 
 .awesome {
     display: flex;
@@ -89,4 +94,86 @@ button.sign{
     border: 1px solid #3882F6;
     color: white;
     border-radius: 8px;
+    width: 100px;
+    height: 30px;
+}
+
+.white-container-title {
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+.icon {
+    width: 100px;
+    height: auto;
+}
+
+.container-white {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    /* makes font lighter */
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px 400px;
+}
+
+.name {
+    font-size: 18px;
+    text-align: right;
+    font-weight:bold;
+    margin-right: 50px;
+}
+
+.signupbox {
+    display: flex;
+    background-color: #3882F6;
+    width: 1200px;
+    height: 100px;
+    margin: 100px 200px;
+    /* curved edges of box */
+    border-radius: 8px;
+    justify-content:space-evenly;
+    align-items:center;
+    padding: 50px 70px;
+
+}
+
+.signup-cont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.signup {
+    border-radius: 8px;
+    border: 4px solid white;
+    background-color: #3882F6;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
